@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beasts Workout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Suez+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Gloria+Hallelujah&family=Suez+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Signika&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1120px)" href="/css/phone.css">
+    <link rel="stylesheet"media="screen and (max-width:580px)"  href="/css/Smallph.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="/index.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+
+        <div id="logo">
+            <img src="/images/logo.jpg" alt="">
+        </div>
+
+        <ul id="navbar-ul">
+            <li class="items"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+            <li class="items"><a href="#"> <i class='fas fa-running'></i>Training</a></li>
+            <li class="items"><a href="#"><i class="fa fa-inr" aria-hidden="true"></i> Pricing</a></li>
+            <li class="items"><a href="#"> <i class="fa fa-phone" aria-hidden="true"></i>Call Us</a></li>
+            <li class="items"><a href="#"> <i class="fa fa-envelope" aria-hidden="true"></i>Email Us</a></li>
+            <li class="items"><a href="#"> <i class="fa fa-info-circle" aria-hidden="true"></i>About</a></li>
+        </ul>
+        <div id="chkbox">
+            <input type="checkbox" name="chk" id="chk">
+            <label for="chk" class="show-menu-btn"><i class="fa fa-bars" aria-hidden="true" onclick="showw()"></i></label>
+        </div>
+           <label for="chk" class="hide-menu-btn">
+               <i class="fa fa-times" aria-hidden="true" onclick="showw()"></i>
+            </label>
+      
+
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Arya's GYM</h1>
+        <p>VIP HEALTH CENTRE training section is equipped with the latest machines from USA, </p>
+                <p> which isolate targeted muscles for more specialized training.  </p> 
+        <button class="btn">Join Now</button>
+    </section>
+
+    <section id="services-container">
+    <h1 class="h-primary center">Our Services</h1>
+    <div id="services">
+         <div class="box">
+             <h2 class="h-secondary center" >Strength exercises</h2>
+             <img src="/images/bg5.jpg" alt="">
+             <p>
+                These are important for keeping your bones and muscles strong and helping older adults maintain their independence. Strength training is beneficial in reducing falls and helping you do everyday activities that require lifting, such as carrying groceries. </p>
+            </div>
+            <div class="box">
+                <h2 class="h-secondary center">Flexibility</h2>
+                <img src="/images/bg5s.jpg" alt="">
+                <p>Though not part of the CDC’s official recommendations for maintaining good physical health, flexibility exercises can keep your body limber and help you maintain a wide range of motion. This is important because range of motion is often limited by things like arthritis.</p>
+               </div>
+               <div class="box">
+                <h2 class="h-secondary center">Aerobic (Endurance) Exercise</h2>
+                <img src="/images/bg6s.jpg" alt="">
+                <p>Aerobic exercises increase your breathing and heart rate and are the main component of overall fitness programs. They keep the circulatory system and lungs healthy, can stave off diabetes and heart disease and help you build up endurance.</p>
+               </div>
+    </div>
+
+ <section id="contact">
+     <h1 class="h-primary center">Contact Us</h1>
+     <div id="contact-box">
+         <form onsubmit="submitt()">
+             <div class="form">
+                 <label for="name">Name:</label>
+                 <input type="text" id="name" placeholder="Enter Your Name" required>
+             </div>
+
+             <div class="form">
+                 <label for="age">Your Age:</label>
+                 <input type="number" id="age" placeholder="Enter Your Age" required>
+             </div>
+             
+             <div class="form gender">
+                 <label for="male">Male:</label><input type="radio" name="sex" id="male">
+                 <label for="female">Female:</label> <input type="radio" name="sex" id="female">
+                 <label for="other">Other:</label> <input type="radio" name="sex" id="other">
+             </div>
+             
+             <div class="form">
+                 <label for="email">Email:</label>
+                 <input type="email" id="email" placeholder="Enter Your Email" required>
+             </div>
+             
+             <div class="form">
+                 <label for="phone">Phone No:</label>
+                 <input type="phone" id="phone" placeholder="Enter Your Phone Number" required>
+             
+                </div>
+                <div class="form">
+
+                    <input type="submit"  value="Submit" class="btn" >
+                    <input type="reset" onclick="reset()" value="reset" class="btn">
+                </div>
+         </form>
+        </div>
+    </section>
+                 <footer>
+                     <div class="center">
+                        Copyright &copy; www.tinkerArya.com. All Rights Reserved.
+                     </div>
+                 </footer>
+</body>
+
+</html>

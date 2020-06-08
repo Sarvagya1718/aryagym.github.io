@@ -1,0 +1,103 @@
+/* Navigation bar */
+#navbar{
+   /* flex-direction: column; */
+   height: 65px;
+}
+#navbar ul li a {
+    padding: 2px 8px;
+    margin: 0px 8px;
+    font-size: 12px;
+    margin: 1px;
+}
+#navbar img{
+    width: 40px;
+    padding: 8px;
+    /* display: none; */
+}
+.items .fa{
+    font-size: 1em;
+    margin-right: 2px;
+}
+.show-menu-btn{
+    display: block;
+    font-size: 17px;
+}
+/* Home */
+
+#home {
+    height: 265px;
+    padding:10px 5px;
+    /* border: 2px solid green; */
+
+}
+#home::before{
+    height: 355px;
+}
+#home p{
+    font-size: 1rem;
+}
+
+/* Service */
+
+#services{
+    flex-wrap: wrap;
+}
+
+#services .box img {
+    width: 13rem;
+    height: auto;
+    padding-bottom: 4px;
+}
+
+
+#services .box {
+    border: 2px solid #3f3f64;
+    padding: 16px 23px;
+    margin: 8px 9px;
+    border-radius: 15px;
+    background: #aaaaaa;
+    text-align: center;
+}
+#services .box p{
+    font-size: 1rem;
+}
+
+/* Contact */
+#contact-box form{
+    width: 80%;
+}
+#contact-box label{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.gender::before{
+    content: "Gender:";
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.gender input{
+    height: 15px;
+}
+#contact-box input {
+    padding: .4rem;
+    margin: 5px 0px;
+    font-size: 12px;
+}
+footer{
+    font-size: 12px;
+    padding: 4px;
+}
+
+/* Utility Class */
+.h-primary{
+    font-size: 25px;
+}
+.h-secondary{
+    font-size: 18px;
+}
+.btn {
+    font-size: 16px;
+    padding: 6px 19px;
+    margin: 4px 16px;
+}

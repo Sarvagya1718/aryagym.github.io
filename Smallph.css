@@ -1,0 +1,41 @@
+#home{
+    height:341px;
+}
+.hide-menu-btn{
+    display: block;
+}
+.hide-menu-btn{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+#navbar{
+    position:fixed;
+    width: 100%;
+    height: 8vh;
+    background: black;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+#navbar ul li {
+    list-style: none;
+    margin: 3px;
+}
+#navbar ul li a {
+    font-size: .5rem;
+    padding: 0px 2px;
+}
+#navbar img{
+    display: none;
+}
+.fa.fa-times{
+    display: none;
+}
+.show-menu-btn{
+    display: none;
+}
+/* #chk{
+    position: absolute;
+
+} */

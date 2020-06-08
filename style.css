@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation Bar */
+#navbar::before{
+    content: "";
+    background: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .7;
+}
+#navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 60px;
+}
+#navbar img {
+    width: 60px;
+    padding: 4px 20px;
+    margin: 0px;
+}
+#navbar img:hover{
+    cursor: pointer;
+
+}
+#logo{
+  margin: 0px 1px;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    padding: 2px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    margin: 0px 5px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+#navbar ul li a:hover{
+    background: whitesmoke;
+    color: black;
+}
+.show-menu-btn, .hide-menu-btn{
+    position: absolute;
+    color: azure;
+ 
+    right: 15px;
+    display: none;
+}
+
+#chk{
+    display: none;
+}
+/* Home section */
+#home::before {
+    content: "";
+    background: url('/images/bg1.jpg')no-repeat top center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 75%;
+    width: 100%;
+    z-index: -1;
+    opacity: .6;
+}
+#home{
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 90px;
+    height: 460px;
+}
+
+
+#home p{
+    font-size: 1.8rem;
+    /* color: whitesmoke; */
+}
+#home .btn:hover{
+    color: #bffdf7;
+    cursor: pointer;
+    background: #163049;
+    transition: 1.2s ease-in-out;
+}
+
+/* Services Section */
+#services{
+    display: flex;
+}
+#services .box{
+    border: 4px solid #3f3f64;
+    padding: 30px 34px;
+    margin: 25px 15px;
+    border-radius: 15px;
+    background: #aaaaaa;
+    text-align: center;
+
+}
+#services .box img{
+    width:250px;
+    display: block;
+    margin: auto;
+    padding-bottom:  25px; 
+}
+.items .fa{
+    font-size: 1em;
+    margin-right: 10px;
+}
+.box p{
+    font-size: 1.4rem;
+}
+
+/* Conatact Section */
+#contact{
+    position: relative;
+}
+#contact::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: .6;
+    background: url('/images/hermes-rivera-qbf59TU077Q-unsplash.jpg')no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box input{
+    width: 100%;
+    padding: .5rem;
+    margin:18px 0px;
+    border-radius: 12px;
+    font-size: 1rem;
+}
+#contact-box label{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Signika', sans-serif;
+}
+.gender::before{
+    padding-right:15px ;
+    content: "Gender:";
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+.gender{
+    /* border: 2px solid red; */
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Signika', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gender input{
+    height: 25px;
+}
+footer{
+    background: black;
+    color: whitesmoke;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+}
+#contact-box form .btn{
+    width: 30%;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+
+
+/* Utility Classes */
+.btn{
+    font-size: 1.3rem;
+    color: white;
+    border: 0px solid #272323;
+    background: #1e4250;
+    padding: 9px 38px;
+    margin: 9px 20px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.h-primary{
+    letter-spacing: 10px;
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Suez One', serif;
+    text-decoration: underline;
+    text-shadow:5px 3px rgb(36, 183, 224);
+}
+.h-secondary{
+    letter-spacing: 3px;
+    margin-bottom: 23px;
+    font-size: 2rem;
+    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Suez One', serif;
+}
+.center{
+    text-align: center;
+}
+p{
+    font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Signika', sans-serif;
+}
