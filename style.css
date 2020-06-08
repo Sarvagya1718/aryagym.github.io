@@ -71,7 +71,7 @@
 /* Home section */
 #home::before {
     content: "";
-    background: url('/images/bg1.jpg')no-repeat top center/cover;
+    background: url('bg1.jpg')no-repeat top center/cover;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -142,7 +142,7 @@
     left: 0px;
     z-index: -1;
     opacity: .6;
-    background: url('/images/hermes-rivera-qbf59TU077Q-unsplash.jpg')no-repeat center center/cover;
+    background: url('hermes-rivera-qbf59TU077Q-unsplash.jpg')no-repeat center center/cover;
 
 }
 #contact-box{
